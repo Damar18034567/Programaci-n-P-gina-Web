@@ -1,0 +1,51 @@
+p { 
+    color: rgb(0, 0, 0);
+}
+
+h2 { 
+    color: rgb(0, 162, 255)
+}
+
+.importante {
+    background-color: rgb(219, 248, 91);
+    color: rgb(255, 17, 17);
+}
+
+#especial {
+    background-color: rgb(190, 183, 183);
+    font-family: sans-serif;
+}
+
+section{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+    margin-top: 20px;
+    border-bottom: 2px dotted red;
+
+    width: 300px;
+    background-color: lightgray;
+}
+
+/* Estilos normales (para ordenador) */
+article {
+    width: 300px;
+}
+
+/* Estilos para móviles (pantallas de menos de 600px) */
+@media (max-width: 600px) {
+    article {
+        width: 100%; /* La tarjeta ocupa todo el ancho en el móvil */
+    }
+    
+    h1 {
+        font-size: 1.5rem; /* Hacemos el título un poco más pequeño */
+    }
+}
+
+ 
